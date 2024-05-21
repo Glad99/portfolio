@@ -39,12 +39,13 @@ const Navbar = () => {
     return (
         <div className="navbar flex gap-20 md:gap-48 lg:justify-between py-5 px-8 lg:px-32 fixed w-full z-50 font-bold bg-white dark:bg-gray-900 shadow-lg">
             <h1 className='text-2xl md:text-3xl text-purple-900 dark:text-white'>Gladys</h1>
-            <ul className="hidden lg:flex text-lg font-semibold gap-10 lg:ml-[23rem]">
+            <ul className="hidden lg:flex text-lg font-semibold gap-10 lg:ml-[21rem]">
                 {navItems.map((nav, i) => (
                     <li key={i} className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>
                         <span onClick={() => handleClick(nav.path)}>{nav.name}</span>
                     </li>
                 ))}
+                <a href="https://drive.google.com/file/d/1qLZa2pc9pk3WQZ7EVQwL7b_J_f-eHDRg/view?usp=sharing"><li className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>Resume</li></a>
             </ul>
             <label className="cursor-pointer grid place-items-center lg:ml-[-5rem]">
                 <input
