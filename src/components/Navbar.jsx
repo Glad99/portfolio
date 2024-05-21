@@ -46,10 +46,10 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <label className="cursor-pointer grid place-items-center">
+            <label className="cursor-pointer grid place-items-center lg:ml-[-5rem]">
                 <input
                     type="checkbox"
-                    className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2"
+                    className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2 "
                     onChange={handleToggle}
                     checked={theme === 'dark'}
                 />
