@@ -22,7 +22,7 @@ Contact me now and let's discuss how I can contribute to your frontend developme
           <p>Message</p>
         <textarea name="" id="" cols="30" rows="10" placeholder='Write here...' className='p-1 border-2 border-gray-400 rounded w-[20rem] md:w-[25rem] h-[10rem]'></textarea>
         </div>
-        <button className='p-1 rounded border-4 shadow-xl border-purple-900 w-[20rem] md:w-[25rem] font-bold hover:bg-purple-950 hover:text-white cursor-pointer text-purple-900'>Send</button>
+        <button className='p-1 rounded border-4 shadow-xl border-purple-900 w-[20rem] md:w-[25rem] font-bold hover:bg-slate-700 hover:text-white hover:border-none hover:py-[7.5px] hover:px-4 cursor-pointer text-purple-900'>Send</button>
       </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="navbar flex gap-20 md:gap-48 lg:justify-between py-3 md:py-5 px-8 lg:px-32 fixed w-full z-50 font-bold bg-white dark:bg-gray-900 shadow-lg">
+        <div className="navbar flex gap-20 md:gap-48 lg:justify-between py-5 px-8 lg:px-32 fixed w-full z-50 font-bold bg-white dark:bg-gray-900 shadow-lg">
             <h1 className='text-2xl md:text-3xl text-purple-900 dark:text-white'>Gladys</h1>
             <ul className="hidden lg:flex text-lg font-semibold gap-10 lg:ml-80">
                 {navItems.map((nav, i) => (
@@ -63,9 +63,9 @@ const Navbar = () => {
             </label>
     
             {show ? (
-                <AiOutlineClose onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-3' />
+                <AiOutlineClose onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-8' />
             ) : (
-                <TfiMenu onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-3' />
+                <TfiMenu onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-8' />
             )}
             {show && (
                 <aside className='mobile-menu lg:hidden flex text-lg font-semibold flex-col w-1/2 gap-2 items-center bg-purple-900/25 backdrop-blur-sm absolute top-0 right-0 shadow-xl py-5 pt-12 rounded-bl'>

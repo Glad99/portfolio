@@ -6,3 +6,45 @@ html {
   scroll-behavior: smooth;
   color: rgb(31, 45, 55);
 }
+
+@keyframes logo-slides {
+  from {
+      transform: translateX(100%);
+  }
+  to{
+      transform: translateX(-100%);
+  }
+  
+}
+.logos-slide{
+  animation: 35s logo-slides infinite linear;
+}
+.logos{
+  overflow: hidden;
+  position: relative;
+}
+.logos::before, .logos::after{
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  content: '';
+  z-index: 2;
+}
+.logos::before{
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);
+}
+.logos::after{
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+}
+
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+/* .logos:hover .img1 {
+  background: green;
+  z-index: 2;
+} */
