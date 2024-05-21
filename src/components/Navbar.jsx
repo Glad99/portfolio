@@ -39,7 +39,7 @@ const Navbar = () => {
     return (
         <div className="navbar flex gap-20 md:gap-48 lg:justify-between py-5 px-8 lg:px-32 fixed w-full z-50 font-bold bg-white dark:bg-gray-900 shadow-lg">
             <h1 className='text-2xl md:text-3xl text-purple-900 dark:text-white'>Gladys</h1>
-            <ul className="hidden lg:flex text-lg font-semibold gap-10 lg:ml-80">
+            <ul className="hidden lg:flex text-lg font-semibold gap-10 lg:ml-[23rem]">
                 {navItems.map((nav, i) => (
                     <li key={i} className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>
                         <span onClick={() => handleClick(nav.path)}>{nav.name}</span>
