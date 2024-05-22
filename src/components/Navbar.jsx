@@ -45,7 +45,7 @@ const Navbar = () => {
                         <span onClick={() => handleClick(nav.path)}>{nav.name}</span>
                     </li>
                 ))}
-                <a href="https://drive.google.com/file/d/1qLZa2pc9pk3WQZ7EVQwL7b_J_f-eHDRg/view?usp=sharing"><li className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>Resume</li></a>
+                <a href="https://drive.google.com/file/d/1t1IyNkFtmCRyvbSuT1YRDwaOjA8lqDT6/view?usp=drive_link"><li className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>Resume</li></a>
             </ul>
             <label className="cursor-pointer grid place-items-center lg:ml-[-10rem]">
                 <input
