@@ -12,7 +12,7 @@ const About = () => {
 
         My skill set focuses on developing dynamic, engaging interfaces through the implementation of clean, efficient code and the utilization of sophisticated development tools and methodologies. Moreover, I enjoy the dynamic nature of my work and thrive in team-oriented settings, collaborating with multidisciplinary teams to create exceptional web applications.</p>
 </div>
-     <a href="https://drive.google.com/file/d/1qLZa2pc9pk3WQZ7EVQwL7b_J_f-eHDRg/view?usp=sharing"> <motion.button className='px-3 py-2 mt-10 text-lg font-semibold rounded border-4  border-solid border-purple-900 text-purple-900 shadow-xl hover:bg-slate-700 hover:text-white hover:border-none hover:py-3 hover:px-4'
+     <a href="https://drive.google.com/file/d/1t1IyNkFtmCRyvbSuT1YRDwaOjA8lqDT6/view?usp=drive_link"> <motion.button className='px-3 py-2 mt-10 text-lg font-semibold rounded border-4  border-solid border-purple-900 text-purple-900 shadow-xl hover:bg-slate-700 hover:text-white hover:border-none hover:py-3 hover:px-4'
       initial={{x: '-100vw'}}
       animate={{x: 0}}
       transition={{type: 'spring', stiffness:120}}
