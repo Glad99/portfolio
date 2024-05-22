@@ -64,14 +64,14 @@ const Navbar = () => {
             </label>
     
             {show ? (
-                <AiOutlineClose onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-8' />
+                <AiOutlineClose onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-white shadow-lg dark:border-white z-50 fixed right-8' />
             ) : (
                 <TfiMenu onClick={() => setShow(prev => !prev)} className='menu-icon text-3xl lg:hidden text-purple-900 dark:text-white p-1 border rounded border-purple-900 dark:border-white z-50 fixed right-8' />
             )}
             {show && (
-                <aside className='mobile-menu lg:hidden flex text-lg font-semibold flex-col w-1/2 gap-2 items-center bg-purple-900/25 backdrop-blur-sm absolute top-0 right-0 shadow-xl py-5 pt-12 rounded-bl'>
+                <aside className='mobile-menu lg:hidden flex text-lg font-semibold flex-col w-2/3 md:w-1/2 gap-2 items-center bg-purple-950/25 backdrop-blur-xl absolute top-0 right-0 shadow-xl py-5 pt-12 rounded-bl'>
                     {navItems.map((nav, i) => (
-                        <p key={i} className='text-white hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer hover:font-bold' onClick={() => handleClick(nav.path)}>
+                        <p key={i} className='text-purple-900 hover:text-white dark:hover:text-purple-300 cursor-pointer hover:font-bold' onClick={() => handleClick(nav.path)}>
                             {nav.name}
                         </p>
                     ))}
