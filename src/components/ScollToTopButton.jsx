@@ -13,7 +13,7 @@ const ScrollToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="p-1 border-4 border-purple-900 text-purple-900 hover:bg-slate-600 rounded-3xl text-2xl hover:text-white absolute right-10 cursor-pointer hover:border-none hover:p-2" 
+      className="p-2 md:p-1 md:border-4 border-purple-900 text-purple-900 hover:bg-slate-600 rounded-3xl text-2xl hover:text-white absolute right-0 md:right-10 cursor-pointer hover:border-none hover:p-2" 
     >
       <TiArrowUp/>
     </button>
