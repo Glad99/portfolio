@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ScrollToTopButton from './ScollToTopButton';
 
 
 const Contact = () => {
@@ -79,6 +80,7 @@ Contact me now and let's discuss how I can contribute to your frontend developme
     </form>
       </div>
       </div>
+      <ScrollToTopButton/>
     </div>
   )
 }

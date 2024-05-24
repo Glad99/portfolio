@@ -22,6 +22,7 @@ function App() {
       <About/>
       <Project/>
       <Contact/>
+
       <Footer/>
 
       {/* <Routes>
