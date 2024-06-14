@@ -19,10 +19,10 @@ const Project = () => {
             </div></a>
             </div>
                 <div className='flex gap-5 justify-center pt-4'>
-                <img src="/public/MongoDb.svg" alt="" className='w-8 md:w-6' />
-                <img src="/public/icons8-express-js.svg" alt="" className='w-8 md:w-6'/>
+                <img src="/MongoDb.svg" alt="" className='w-8 md:w-6' />
+                <img src="/icons8-express-js.svg" alt="" className='w-8 md:w-6'/>
                   <img src={reactLogo} alt="React" className='w-8 md:w-6' />
-                  <img src="/public/node-js1.svg" alt="" className='w-8 md:w-6' />
+                  <img src="/node-js1.svg" alt="" className='w-8 md:w-6' />
                   <img src={tailwindLogo} alt="Tailwind" className='w-8 md:w-6' />
                   <img src={framerMotionLogo} alt="Framer Motion" className='w-8 md:w-5 md:h-5' />
                 </div>
