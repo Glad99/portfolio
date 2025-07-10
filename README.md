@@ -1,8 +1,3 @@
-# React + Vite
+As a practical exercise in distributed version control and to refresh my understanding of **Git and remote collaboration workflows**, I **cloned** this portfolio repository onto a different machine with a fresh VSCode setup (distinct from the original development environment). I then executed a complete Git workflow: pulling the latest changes, making local modifications, committing them and pushing the updates back to the same remote repository.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This process was completed without any **merge conflicts or synchronization issues**, demonstrating my ability to manage Git-based version control effectively across multiple environments while maintaining a clean and consistent commit history in a shared codebase. This hands-on exercise solidify my understanding of Git workflows in a real-world project context.
