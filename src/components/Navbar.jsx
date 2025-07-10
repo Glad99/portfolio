@@ -45,7 +45,7 @@ const Navbar = () => {
                         <span onClick={() => handleClick(nav.path)}>{nav.name}</span>
                     </li>
                 ))}
-                <a href="https://drive.google.com/file/d/1t1IyNkFtmCRyvbSuT1YRDwaOjA8lqDT6/view?usp=drive_link"><li className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>Resume</li></a>
+                <a href="https://drive.google.com/file/d/1nCLkTLikYwSKVejwbnUt4am1u9CRTs8E/view"><li className='hover:text-purple-900 dark:hover:text-purple-300 cursor-pointer  hover:border-b-2 border-purple-900 dark:border-purple-300'>Resume</li></a>
             </ul>
             <label className="cursor-pointer grid place-items-center lg:ml-[-10rem]">
                 <input
@@ -75,7 +75,7 @@ const Navbar = () => {
                             {nav.name}
                         </p>
                     ))}
-                        <a href="https://drive.google.com/file/d/1t1IyNkFtmCRyvbSuT1YRDwaOjA8lqDT6/view?usp=drive_link"><p className='text-purple-900 hover:text-white dark:hover:text-purple-300 cursor-pointer  dark:border-purple-300'>Resume</p></a>
+                        <a href="https://drive.google.com/file/d/1nCLkTLikYwSKVejwbnUt4am1u9CRTs8E/view"><p className='text-purple-900 hover:text-white dark:hover:text-purple-300 cursor-pointer  dark:border-purple-300'>Resume</p></a>
 
                 </aside>
             )}
