@@ -37,7 +37,7 @@ const Home = () => {
         >
       <div className='mx-1 md:mx-10'>
         <div className='fixed hidden lg:flex flex-col gap-10  *:text-gray-500 z-50 '>
-        <a href="mailto:gladysalu1@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:gladysalu1@gmail.com">
                 <MdOutlineMail className='hover:text-purple-900 cursor-pointer size-7' />
             </a>
             <a href="https://github.com/Glad99" target="_blank" rel="noopener noreferrer">
