@@ -75,7 +75,7 @@ const Navbar = () => {
                             {nav.name}
                         </p>
                     ))}
-                        <a href="https://drive.google.com/file/d/1nCLkTLikYwSKVejwbnUt4am1u9CRTs8E/view"><p className='text-purple-900 hover:text-white dark:hover:text-purple-300 cursor-pointer  dark:border-purple-300'>Resume</p></a>
+                        <a href="https://drive.google.com/file/d/1iOZZuWC7qI4UtF17KyEgZQ513dkgl7Ms/view?usp=sharing"><p className='text-purple-900 hover:text-white dark:hover:text-purple-300 cursor-pointer  dark:border-purple-300'>Resume</p></a>
 
                 </aside>
             )}
